@@ -6,6 +6,7 @@
   "scripts": {
     "build": "rimraf dist/ && babel src -d dist",
     "serve": "npm run build && node dist/index.js",
+    "test:e2e": "cucumber-js spec/cucumber/features --require-module @babel/register --require spec/cucumber/steps",
     "test": "echo \"Error: no test specified\" && exit 1",
     "fix": "eslint src/ --fix",
     "lint": "eslint src/",
@@ -28,6 +29,8 @@
     "@babel/cli": "^7.1.5",
     "@babel/core": "^7.1.5",
     "@babel/preset-env": "^7.1.5",
+    "@babel/register": "^7.0.0",
+    "cucumber": "^5.0.2",
     "eslint": "^5.8.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.14.0",
