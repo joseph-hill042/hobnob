@@ -1,0 +1,22 @@
+{
+  "name": "hobnob",
+  "version": "0.1.0",
+  "description": "The tutorial project for Enterprise JavaScript from Packt Publishing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/josephhill1/hobnob.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Joseph Hill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josephhill1/hobnob/issues"
+  },
+  "homepage": "https://github.com/josephhill1/hobnob#readme"
+}
