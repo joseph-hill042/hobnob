@@ -13,6 +13,10 @@ When(
   }
 )
 
+When(/^without a (?:"|')([\w-]+)(?:"|') header set$/, function(headerName) {
+  this.request.unset(headerName)
+})
+
 When(/^attaches a generic (.+) payload$/, function(payloadType) {
   switch (payloadType) {
     case 'malformed':
